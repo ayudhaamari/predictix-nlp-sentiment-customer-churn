@@ -74,9 +74,8 @@ This approach provides accurate and timely insights into customer sentiments and
 
 To install Predictix:
 ```bash
-git clone https://github.com/ayudhaamari/predictix.git
-cd predictix
-pip install -r requirements.txt
+git clone https://github.com/ayudhaamari/predictix-nlp-sentiment-customer-churn.git
+cd predictix-nlp-sentiment-customer-churn
 ```
 
 ## Getting Started
