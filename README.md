@@ -27,6 +27,17 @@
     </tr>
 </table>
 
+## Demo 🎥
+
+### Homepage
+![Homepage Demo](./images/homepage_demo.gif)
+
+### EDA Section
+![EDA Section Demo](./images/eda_demo.gif)
+
+### Prediction
+![Prediction Demo](./images/prediction_demo.gif)
+
 [Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
 
 
