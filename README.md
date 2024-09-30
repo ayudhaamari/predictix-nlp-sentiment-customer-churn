@@ -31,12 +31,15 @@
 
 ### Homepage
 ![Homepage Demo](./images/homepage_demo.gif)
+The homepage demo showcases the main interface of Predictix, providing an overview of the app's features and navigation options.
 
 ### EDA Section
 ![EDA Section Demo](./images/eda_demo.gif)
+The EDA (Exploratory Data Analysis) section demo illustrates how users can interact with various data visualizations and insights derived from the customer churn dataset.
 
 ### Prediction
 ![Prediction Demo](./images/prediction_demo.gif)
+The prediction demo demonstrates the process of inputting customer data and receiving churn predictions, showcasing the app's core functionality.
 
 [Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
 
@@ -75,13 +78,13 @@ This approach provides accurate and timely insights into customer sentiments and
 
 ### Dependencies
 
-- Python 3.9+
-- PyTorch 2.0+
-- Transformers 4.40+
-- Pandas
-- NumPy
-- Scikit-learn
-- etc.
+- ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white) Python 3.9+
+- ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white) PyTorch 2.0+
+- ![Transformers](https://img.shields.io/badge/Transformers-4.40%2B-FF9900?logo=huggingface&logoColor=white) Transformers 4.40+
+- ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) Pandas
+- ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) NumPy
+- ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) Scikit-learn
+- ![Other Dependencies](https://img.shields.io/badge/Other-Dependencies-lightgrey) etc.
 
 To install Predictix:
 ```bash
@@ -89,7 +92,7 @@ git clone https://github.com/ayudhaamari/predictix-nlp-sentiment-customer-churn.
 cd predictix-nlp-sentiment-customer-churn
 ```
 
-## Getting Started
+## Getting Started 🚀
 
 For the sentiment analysis, you can use the following code:
 ```python
@@ -143,7 +146,7 @@ print(f"Churn Prediction: {result}")
 
 ```
 
-## Model Architecture
+## Model Architecture 🧠
 
 Predictix uses a fine-tuned BERT model for sentiment analysis. The architecture includes:
 
@@ -164,7 +167,7 @@ After conducting sentiment analysis using BERT, we employ cross-validation to id
 To further enhance performance, we fine-tune the SVC model specifically for the florist-specific dataset.
 
 
-## Performance
+## Performance 🚀
 
 Our BERT-based model achieves:
 
@@ -198,12 +201,27 @@ This is the comparison of the performance of the model with other models used in
 
 
 
+## Dashboard Visualization 📊
+
+The Tableau dashboard provides a comprehensive overview of the customer churn analysis. It offers interactive visualizations that help stakeholders understand key metrics and trends at a glance.
+
+![Dashboard Visualization](./images/dashboard.jpg)
+
+The dashboard includes:
+- Customer churn distribution
+- Payment method distribution
+- Sentiment analysis distribution
+- Key factors influencing churn
+- Churn rate
+
+You can access the full interactive dashboard [here](https://public.tableau.com/app/profile/yuliana.theresa/viz/FinalProject_17271749155140/Dashboard1?publish=yes).
+
 ## Acknowledgements
 
 - Dataset provided by [Florist Customer Churn](https://huggingface.co/datasets/iammkb2002/florist_customer_churn)
 - BERT implementation based on [Hugging Face Transformers](https://github.com/huggingface/transformers)
 - Download the fine-tuned model from [Here](https://drive.google.com/drive/folders/1U7vDgiHhgMuuDl9noB3ESJm0yn0x2uPX?usp=sharing)
-- Dashboard Tableau from [Here](https://public.tableau.com/app/profile/yuliana.theresa/viz/FinalProject_17271749155140/Dashboard1?publish=yes)
+
 
 ## Citation
 
