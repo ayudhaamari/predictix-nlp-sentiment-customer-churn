@@ -27,6 +27,8 @@
     </tr>
 </table>
 
+[Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
+
 ## Demo 🎥
 
 ### Homepage
@@ -41,7 +43,7 @@ The EDA (Exploratory Data Analysis) section demo illustrates how users can inter
 ![Prediction Demo](./images/prediction_demo.gif)
 The prediction demo demonstrates the process of inputting customer data and receiving churn predictions, showcasing the app's core functionality.
 
-[Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
+
 
 
 
